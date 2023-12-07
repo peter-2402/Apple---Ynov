@@ -2,6 +2,12 @@
 
 
     /* La Partie CSS */
+body{
+    font-family: 'SF pro textS';
+}   
+   
+   
+   
     .container {
         display: flex;
     }
@@ -11,6 +17,7 @@
         margin: 10px;
         padding: 20px;
         border: 1px solid #ccc;
+        text-align: center;
     }
 
     .block5centre {
