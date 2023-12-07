@@ -13,31 +13,6 @@
         border: 1px solid #ccc;
     }
 
-    .visuallyhidden {
-        position: absolute;
-        clip: rect(1px, 1px, 1px, 1px);
-        -webkit-clip-path: inset(0px 0px 99.9% 99.9%);
-        clip-path: inset(0px 0px 99.9% 99.9%);
-        overflow: hidden;
-        height: 1px;
-        width: 1px;
-        padding: 0;
-        border: 0;
-    }
-    .logo-image-apple-watch-ultra-2-promo-logo-apple-watch-ultra2 {
-        width: 137px;
-        height: 52px;
-        background-size: 137px 52px;
-        background-repeat: no-repeat;
-        background-image: url(/v/home/bg/images/logos/apple-watch-ultra-2/promo_logo_apple_watch_ultra2__ggg2x39rsvqu_large.png);
-        background-position: center;
-    }
-
-
-
-
-
-
     .block5centre {
         flex: 1;
         margin: 10px;
@@ -48,10 +23,6 @@
         flex-direction: column;
         text-align: center;
     }
-
-
-
-
 
 
 
