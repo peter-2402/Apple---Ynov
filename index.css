@@ -2,10 +2,13 @@
 
 
     /* La Partie CSS */
-body{
+    body{
     font-family: 'SF pro textS';
-}   
-   
+    }
+
+    p {
+        font-size: 10px;
+    }
    
    
     .container {
@@ -20,6 +23,15 @@ body{
         text-align: center;
     }
 
+    .blockBlack {
+        flex: 1;
+        margin: 10px;
+        padding: 20px;
+        border: 1px solid #ccc;
+        text-align: center;
+        background-color: black;
+    }
+
     .block5centre {
         flex: 1;
         margin: 10px;
@@ -31,8 +43,12 @@ body{
         text-align: center;
     }
 
-
-
+    .content-container {
+        text-align: center;
+        display: flex;
+        flex-direction: column; /* Empêche que les éléments s'étirent horizontalement */
+        align-items: center; /* Alignement centré pour les éléments internes */
+    }
 
     .Footeur {
             color: #fff;
@@ -43,10 +59,30 @@ body{
             
     }
     .text-block {
-            width: 60%;
+            width: 100%;
            color: gray;
             text-align: justify; /* Alignement du texte */
             padding: 20px;
-            font-size: 12px;
+            font-size: 10px;
+    }
+
+
+    /* Caroussel Test*/
+    
+        .carousel-container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .carousel {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .carousel-item {
+            min-width: 100%;
+            box-sizing: border-box;
         }
     
