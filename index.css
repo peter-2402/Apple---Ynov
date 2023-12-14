@@ -1,0 +1,161 @@
+/* La Partie CSS */
+body {
+    font-family: 'SF pro textS';
+}
+
+p {
+    font-size: 10px;
+}
+
+
+.container {
+    width: 100%;
+    height: 50vh;
+    margin: auto;
+    padding-bottom: 250px;
+
+
+}
+
+@media (min-width: 767px) {
+
+    /* Styles spécifiques pour les écrans de largeur maximale de 767 pixels (téléphone) */
+    .container {
+        display: flex;
+        width: 100%; /* La largeur doit être de 100% pour qu'elles occupent toute la largeur de l'écran */
+        padding-bottom: 2px;
+    }
+
+    .containertext {
+        display: flex;
+        width: 100%;
+        height: 25vh;
+        margin: auto;
+    }
+    .affichemob {
+        display: contents;
+    }
+    .affichedesk{
+            display: none;
+    }
+
+}
+
+.block {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.blockblack {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    border: 0 solid #ccc;
+    text-align: center;
+    background-color: black;
+}
+
+.block5centre {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    border: 0px solid #ccc;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.content-container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 8px;
+
+}
+
+.footeur {
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    bottom: 0;
+    width: 100%;
+
+}
+
+.text-block {
+    color: gray;
+    text-align: left;
+    /* Alignement du texte */
+    font-size: 10px;
+    margin-top: 20px;
+}
+.textfootmob {
+    color: gray;
+    text-align: center;
+    /* Alignement du texte */
+    padding: 20px;
+    font-size: 70px;
+    border-bottom: 1px gray;
+}
+
+.containerfootmob {
+    display:flex;
+    justify-content: space-between;
+}
+
+.containertext {
+    display:flex;
+    width: 100%;
+    height: 50vh;
+    margin: auto;
+    text-align: center;
+}
+
+.affichemob {
+display: none;
+}
+.affichedesk{
+    display: contents;
+}
+
+
+
+
+/* Caroussel Test*/
+
+.carousel-container {
+    width: 100%;
+    height: 50vh;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    height: 100%;
+}
+
+.carousel-item {
+    background-image: url('/Images/Silo.jpeg');
+    /* Remplacez le chemin par le chemin réel de votre image */
+    background-size: cover;
+    /* Pour couvrir l'ensemble du conteneur */
+    background-position: center;
+    /* Pour centrer l'image dans le conteneur */
+    background-repeat: no-repeat;
+    /* Pour éviter la répétition de l'image */
+    text-align: center;
+    min-width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    height: 100%;
+    /* Ajout d'un espace intérieur pour éviter que le texte ne soit collé aux bords */
+    margin: 0;/
+}
