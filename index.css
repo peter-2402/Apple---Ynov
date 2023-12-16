@@ -16,9 +16,16 @@ body {
       display : block;
       color: white;
       text-decoration: none;
-      padding-left: 200px;
-      padding-right: 200px;
       background-color: #161617CC;
+      font-size: 12px;
+      letter-spacing: -0.12px;
+      line-height: 12px;
+      position: fixed;
+      width: 100%;
+      position: center;
+      top: 0;
+      padding-right: 100px;
+      padding-left: 100px;
     }
 
      header a {
@@ -267,4 +274,52 @@ display: none;
     height: 100%;
     /* Ajout d'un espace intérieur pour éviter que le texte ne soit collé aux bords */
     margin: 0;
+}
+
+.div10 {
+    background-image: url(./Images/MontreApple.jpeg);
+    width: 50%;
+    height: 500px;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: black;
+}
+
+.div11 {
+    background-image: url(./Images/Airpods.jpeg);
+    width: 50%;
+    height: 500px;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+
+.hero5 {
+    display: flex;
+}
+
+.div12 {
+    background-image: url(./Images/HomePod.jpeg);
+    width: 50%;
+    height: 500px;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: black;
+}
+
+.div13 {
+    background-image: url(./Images/échange.jpg);
+    width: 50%;
+    height: 500px;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: black;
 }
