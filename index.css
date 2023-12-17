@@ -1,132 +1,170 @@
-/* La Partie CSS */
 body {
-    font-family: 'SF pro textS';
-}
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+body a {
+      text-decoration: none;
+    }
+
+header {
+      display : block;
+      color: white;
+      text-decoration: none;
+      background-color: #161617CC;
+      font-size: 12px;
+      letter-spacing: -0.12px;
+      line-height: 12px;
+      position: fixed;
+      width: 100%;
+      position: center;
+      top: 0;
+      padding-right: 100px;
+      padding-left: 100px;
+    }
+
+header a {
+      color: white;
+    }
+
+.header1 {
+        display: inline;
+    }
+
+ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+        fill : white;
+        color: white;
+        color: inherit;
+        text-decoration: none;
+      }
+      
+.hero1 {
+      width: 100%;
+      height: 80vh;
+      background-image: url("./Images/apple_watch.jpeg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      text-align: center;
+      color: white;
+    }
+
+.div0 {
+      padding-top: 70px;
+    }
+
+.hero2 {
+      width: 100%;
+      height: 500px;
+      background-image: url("./Images/noel.jpeg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      text-align: center;
+      color: black;
+    }
+
+.hero3 {
+      width: 100%;
+      height: 500px;
+      background-image: url("./Images/iphone_15.jpeg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      text-align: center;
+      color: black;
+    }
+    
+.hero4 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 12px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    }
+
+.div1 {
+      background-image: url(./Images/iphone_15_pro.jpeg);
+      width: 50%;
+      height: 500px;
+      text-align: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      color: white;
+    }
+
+.div2 {
+      background-image: url(./Images/macbookpro.jpeg);
+      width: 50%;
+      height: 500px;
+      text-align: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
 
 p {
     font-size: 10px;
 }
-a{
-    fgzkjegfiufe
-}
 
-.container {
-    width: 100%;
-    height: 50vh;
-    margin: auto;
-    padding-bottom: 250px;
-
-
-}
-
-@media (min-width: 767px) {
-
-    /* Styles spécifiques pour les écrans de largeur maximale de 767 pixels (téléphone) */
-    .container {
-        display: flex;
-        width: 100%; /* La largeur doit être de 100% pour qu'elles occupent toute la largeur de l'écran */
-        padding-bottom: 2px;
-    }
-
-    .containertext {
-        display: flex;
-        width: 100%;
-        height: 25vh;
-        margin: auto;
-    }
-    .affichemob {
-        display: contents;
-    }
-    .affichedesk{
-            display: none;
-    }
-
-}
-
-.block {
-    flex: 1;
-    margin: 10px;
-    padding: 20px;
-    border: 1px solid #ccc;
+.div10 {
+    background-image: url(./Images/MontreApple.jpeg);
+    width: 50%;
+    height: 500px;
     text-align: center;
+    background-size: 180%;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: black;
 }
 
-.blockblack {
-    flex: 1;
-    margin: 10px;
-    padding: 20px;
-    border: 0 solid #ccc;
+.div11 {
+    background-image: url(./Images/Airpods.jpeg);
+    width: 50%;
+    height: 500px;
     text-align: center;
-    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
 }
 
-.block5centre {
-    flex: 1;
-    margin: 10px;
-    padding: 20px;
-    border: 0px solid #ccc;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-}
-
-.content-container {
-    text-align: center;
+.hero5 {
     display: flex;
-    justify-content: center;
-    width: 100%;
-    gap: 8px;
-
 }
 
-.footeur {
-    color: #fff;
+.div12 {
+    background-image: url(./Images/HomePod.jpeg);
+    width: 50%;
+    height: 500px;
     text-align: center;
-    padding: 20px;
-    bottom: 0;
-    width: 100%;
-
+    background-size: 180%;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: black;
 }
 
-.text-block {
-    color: gray;
-    text-align: left;
-    /* Alignement du texte */
-    font-size: 10px;
-    margin-top: 20px;
-}
-.textfootmob {
-    color: gray;
+.div13 {
+    background-image: url(./Images/échange.jpg);
+    width: 50%;
+    height: 500px;
     text-align: center;
-    /* Alignement du texte */
-    padding: 20px;
-    font-size: 70px;
-    border-bottom: 1px gray;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: black;
 }
-
-.containerfootmob {
-    display:flex;
-    justify-content: space-between;
-}
-
-.containertext {
-    display:flex;
-    width: 100%;
-    height: 50vh;
-    margin: auto;
-    text-align: center;
-}
-
-.affichemob {
-display: none;
-}
-.affichedesk{
-    display: contents;
-}
-
-
-
 
 /* Caroussel Test*/
 
@@ -135,6 +173,7 @@ display: none;
     height: 50vh;
     margin: auto;
     overflow: hidden;
+    margin: 5px;
 
 }
 
@@ -159,5 +198,104 @@ display: none;
     padding: 20px;
     height: 100%;
     /* Ajout d'un espace intérieur pour éviter que le texte ne soit collé aux bords */
-    margin: 0;/
+    margin: 0;
+}
+
+
+/*Footeur */
+
+
+footer{
+    color: gray;
+    text-align: left;
+    font-size: 10px;
+    display:flex;
+    justify-content: space-between;
+  
+}
+.footeur {
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    bottom: 0;
+    width: 100%;
+
+}
+
+.text-block {
+    color: gray;
+    text-align: left;
+    /* Alignement du texte */
+    font-size: 10px;
+    margin-top: 20px;
+    margin : left right 0px ;  
+}
+.textfootmob {
+    color: gray;
+    text-align: center;
+    /* Alignement du texte */
+    padding: 20px;
+    font-size: 70px;
+   
+}
+
+.containerfootmob {
+    display:flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    ;
+}
+
+.containertext {
+    display:flex;
+    width: 100%;
+    height: 50vh;
+    padding: right left  25%;
+    text-align: center;
+}
+
+.affichemob {
+display: none;
+}
+.affichedesk{
+    display:contents;
+}
+
+/*Responsive */
+
+@media only screen and (max-width: 767px) {
+   
+
+    ul {
+        position: static;
+        width: 100%;
+        background-color: #333;
+        display: none;
+    }
+
+
+    .hero1,
+    .hero2,
+    .hero3,
+    .hero4,
+    .hero5,
+    .div1,
+    .div2,
+    .div10,
+    .div11,
+    .div12,
+    .div13,
+    .carousel-container {
+        width: 100%;
+        display: block;
+        width: 100%;
+        margin-bottom: 25px ;
+        display:flexbox;
+    }
+    .affichemob {
+        display: contents;
+        }
+     .affichedesk{
+            display:none;
+        }
 }
