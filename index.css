@@ -16,9 +16,16 @@ body {
       display : block;
       color: white;
       text-decoration: none;
-      padding-left: 200px;
-      padding-right: 200px;
       background-color: #161617CC;
+      font-size: 12px;
+      letter-spacing: -0.12px;
+      line-height: 12px;
+      position: fixed;
+      width: 100%;
+      position: center;
+      top: 0;
+      padding-right: 100px;
+      padding-left: 100px;
     }
 
      header a {
@@ -47,7 +54,7 @@ body {
     .hero1 {
       width: 100%;
       height: 80vh;
-      background-image: url("./img/apple_watch.jpeg");
+      background-image: url("./Images/apple_watch.jpeg");
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
@@ -62,7 +69,7 @@ body {
     .hero2 {
       width: 100%;
       height: 500px;
-      background-image: url("./img/noel.jpeg");
+      background-image: url("./Images/noel.jpeg");
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
@@ -73,7 +80,7 @@ body {
     .hero3 {
       width: 100%;
       height: 500px;
-      background-image: url("./img/iphone_15.jpeg");
+      background-image: url("./Images/iphone_15.jpeg");
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
@@ -91,7 +98,7 @@ body {
     }
 
     .div1 {
-      background-image: url(./img/iphone_15_pro.jpeg);
+      background-image: url(./Images/iphone_15_pro.jpeg);
       width: 50%;
       height: 500px;
       text-align: center;
@@ -102,7 +109,7 @@ body {
     }
 
     .div2 {
-      background-image: url(./img/macbookpro.jpeg);
+      background-image: url(./Images/macbookpro.jpeg);
       width: 50%;
       height: 500px;
       text-align: center;
@@ -266,5 +273,53 @@ display: none;
     padding: 20px;
     height: 100%;
     /* Ajout d'un espace intérieur pour éviter que le texte ne soit collé aux bords */
-    margin: 0;/
+    margin: 0;
+}
+
+.div10 {
+    background-image: url(./Images/MontreApple.jpeg);
+    width: 50%;
+    height: 500px;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: black;
+}
+
+.div11 {
+    background-image: url(./Images/Airpods.jpeg);
+    width: 50%;
+    height: 500px;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+
+.hero5 {
+    display: flex;
+}
+
+.div12 {
+    background-image: url(./Images/HomePod.jpeg);
+    width: 50%;
+    height: 500px;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: black;
+}
+
+.div13 {
+    background-image: url(./Images/échange.jpg);
+    width: 50%;
+    height: 500px;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: black;
 }
